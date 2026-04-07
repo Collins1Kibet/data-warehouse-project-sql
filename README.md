@@ -35,14 +35,6 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - **Scope:** Focus on the latest dataset only; historization of data is not required  
 - **Documentation:** Provide clear documentation of the data model to support both business stakeholders and analytics teams  
 
-## Project Structure
-data-warehouse-project-sql/
-- │── bronze/ # Raw data (CSV files)
-- │── silver/ # Cleaned and transformed data
-- │── gold/ # Final analytical models (views)
-- │── scripts/ # SQL scripts for ETL and transformations
-- │── README.md
-
 ## How to Run the Project
 1. Load raw data (CSV files) into the Bronze layer
 2. Run SQL scripts to clean and transform data into the Silver layer
